@@ -107,8 +107,6 @@ p{
      
 }
 
-
-
 .social-link img {
     transition: transform 0.2s;
 }
@@ -150,3 +148,45 @@ p{
 #toTopBtn:hover {
     background-color: #1abc9c;
 }
+
+.top-right1 {
+    position: fixed;
+    top: 20px;
+    right:175px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+
+.social-link1 i {
+  transition: transform 0.3s ease, color 0.3s ease; 
+  font-size: 30px;
+}
+
+
+.social-link1:hover i {
+  transform: scale(1.2); 
+}
+
+
+.social-link1:hover .fab.fa-whatsapp {
+  color: #128C7E; 
+  box-shadow: 0 4px 10px rgba(18, 140, 126, 0.6);
+}
+
+.social-link1:hover .fas.fa-envelope {
+  color: #4A00E0; 
+  box-shadow: 0 4px 10px rgba(74, 0, 224, 0.6);
+}
+
+.social-link1:hover .fab.fa-github {
+  color: #6e5494; 
+  box-shadow: 0 4px 10px rgba(110, 84, 148, 0.6);
+}
+
+
+
+
+
